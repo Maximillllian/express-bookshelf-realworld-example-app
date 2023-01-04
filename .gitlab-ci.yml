@@ -22,4 +22,4 @@ prettier:
     - ". ~/.nvm/nvm.sh"
     - nvm install $NODE_VERSION
     - npm install
-    - npm run format
+    - npm run check:format

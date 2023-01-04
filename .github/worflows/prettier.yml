@@ -16,5 +16,5 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Format source code with prettier
-        run: npm run format
+        run: npm run check:format
 
