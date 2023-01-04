@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: node:14.17.0-alpine
-    runs-on: 
     steps:
       - uses: actions/checkout@v2
       - name: Cache node.js modules
