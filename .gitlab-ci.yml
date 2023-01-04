@@ -4,7 +4,7 @@ stages:
 cache:
   key:
     files:
-      - package-json.js
+      - package-lock.json
   paths:
     - .npm/
 
